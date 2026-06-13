@@ -496,7 +496,7 @@
       <button class="btn btn-gold" onclick="startGame()">⚔️ Enter the Dungeon</button>
     </div>
 
-    <div class="brand-line">🔷 Base L2 · Builder Code: bc_sjkexp2o</div>
+    <div class="brand-line">🔷 Base L2 · Builder Code: bc_0rsqulv5</div>
   </div>
 </div>
 
@@ -645,7 +645,7 @@
     <div style="font-size:13px;color:var(--text-muted);margin-bottom:18px;line-height:1.8;">
       Wallet: <span id="menu-addr" style="font-family:monospace;color:var(--purple-300)"></span><br>
       Network: <span style="color:var(--green)">Base Mainnet</span><br>
-      Builder: <span style="color:var(--text-muted)">bc_sjkexp2o</span>
+      Builder: <span style="color:var(--text-muted)">bc_0rsqulv5</span>
     </div>
     <button class="btn btn-ghost" onclick="closeModal('modal-menu');openCheckin()">☀️ Daily Check-In</button>
     <button class="btn btn-ghost" onclick="closeModal('modal-menu');openScoreSubmit()">📊 Submit Score</button>
@@ -665,7 +665,7 @@
    ★ BUILDER CODE CONFIGURATION
    Replace these values with your own from base.dev
 ============================================================ */
-const BUILDER_CODE = 'bc_sjkexp2o';
+const BUILDER_CODE = 'bc_0rsqulv5';
 
 /**
  * Computes the ERC-8021 data suffix for a given builder code.
@@ -673,7 +673,7 @@ const BUILDER_CODE = 'bc_sjkexp2o';
  * Total: (1 + n + 1 + 16) bytes appended to transaction calldata.
  *
  * The provided pre-encoded reference value for bc_sjkexp2o:
- * 0x62635f736a6b657870326f0b008021802180218021802180218021802180218021
+ * 0x62635f30727371756c76350b0080218021802180218021802180218021
  * (kept as reference — we compute dynamically for flexibility)
  */
 function computeBuilderSuffix(code) {
